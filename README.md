@@ -4,7 +4,7 @@
 
 this api returns the information of user registered in hng12.
 
-- Endpoint -  <http://localhost:8000/user>
+- Endpoint -  <https://backend-stage0.vercel.app/user>
 
 ### Example Response
 
