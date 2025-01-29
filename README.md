@@ -12,7 +12,7 @@ this api returns the information of user registered in hng12.
 {
     "email": "ichekuwilson538@gmail.com",
     "current_datetime": 2025-01-29T03:30:16.073395+00:00,
-    "github_url": "https://github.com/Wilsonide",
+    "github_url": "https://github.com/Wilsonide/backend-stage0",
 }
 ```
 

@@ -39,7 +39,7 @@ def get_user():
     return {
         "email": "ichekuwilson538@gmail.com",
         "current_datetime": iso_8601_utc,
-        "github_url": "https://github.com/Wilsonide",
+        "github_url": "https://github.com/Wilsonide/backend-stage0",
 
         }
 
