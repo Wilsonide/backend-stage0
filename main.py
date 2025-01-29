@@ -32,13 +32,13 @@ app.add_middleware(
 @app.get('/user',status_code=status.HTTP_200_OK,response_model=UserResponse)
 def get_user():
     # Get the current date and time in UTC
-    current_datetime_utc = datetime.now(timezone.utc)
+    current_datetime_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # Format the datetime in ISO 8601 format
-    iso_8601_utc = current_datetime_utc.isoformat()
+    """ iso_8601_utc = current_datetime_utc.isoformat() """
     return {
         "email": "ichekuwilson538@gmail.com",
-        "current_datetime": iso_8601_utc,
+        "current_datetime": current_datetime_utc,
         "github_url": "https://github.com/Wilsonide/backend-stage0",
 
         }
